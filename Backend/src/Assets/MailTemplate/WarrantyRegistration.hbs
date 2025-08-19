@@ -1,0 +1,70 @@
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Nunito Sans Font -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400&display=swap" rel="stylesheet" />
+
+  <title>Warranty Registration Confirmation</title>
+  <style>
+    body {
+      font-family: 'Nunito Sans', sans-serif;
+      padding: 25px;
+    }
+
+    .text-center {
+      text-align: center;
+    }
+
+    .warranty-card {
+      width: 400px;
+      max-width: 100%;
+      min-width: 250px;
+      margin: auto;
+      background-color: #eceef0;
+      border-radius: 5px;
+      padding: 16px;
+    }
+
+    .header {
+      background-color: #ADD8E6;
+      border-top-right-radius: 5px;
+      border-top-left-radius: 5px;
+      padding: 16px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="warranty-card">
+    <div class="text-center header">
+      <img height="100" width="auto" src="{{logo}}" />
+    </div>
+    <div class="text-center" style="margin-bottom: 16px;">
+      <h1>Warranty Registered Successfully</h1>
+    </div>
+    <div style="padding: 16px;">
+      <p class="text-center" style="color: #6c757d;">
+        Dear <strong>{{customer_name}}</strong>, <br>
+        Thank you for registering your product warranty. Below are the details of your warranty registration:
+      </p>
+
+      <div style="background: #ffffff; padding: 10px; border-radius: 5px;">
+        <p><strong>Product Name:</strong> {{product_name}}</p>
+        <p><strong>Warranty Start Date:</strong> {{warranty_start_date}}</p>
+        <p><strong>Warranty End Date:</strong> {{warranty_end_date}}</p>
+      </div>
+
+      <p class="text-center" style="color: #6c757d; margin-top: 20px;">
+        Your warranty certificate is attached to this email. If you have any questions, feel free to contact our support team.
+      </p>
+
+      <p class="text-center"><small>© 2025. ECA Boilers. All rights reserved.</small></p>
+    </div>
+  </div>
+</body>
+
+</html>

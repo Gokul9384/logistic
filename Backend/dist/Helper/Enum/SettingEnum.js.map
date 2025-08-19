@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../src/Helper/Enum/SettingEnum.ts"],"sourcesContent":["\r\nexport enum SettingEnum {\r\n  TransporterName = \"MailConfiguration\"\r\n}\r\n"],"names":["SettingEnum"],"mappings":";;;;+BACYA;;;eAAAA;;;AAAL,IAAA,AAAKA,qCAAAA;;WAAAA"}

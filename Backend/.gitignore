@@ -1,0 +1,4 @@
+echo "Backend/.uat.env" >> .gitignore
+echo "Backend/.dev.env" >> .gitignore
+git add .gitignore
+git commit -m "Ignore sensitive .env files"

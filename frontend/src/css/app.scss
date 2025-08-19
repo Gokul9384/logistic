@@ -1,0 +1,53 @@
+.my-card {
+  width: 100%;
+  max-width: 250px;
+}
+
+.login-card {
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.q-table__top {
+  padding: 16px;
+}
+
+.q-table__bottom {
+  padding: 16px;
+}
+
+// Custom styles for better visual hierarchy
+.text-primary-gradient {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+// Responsive improvements
+@media (max-width: 600px) {
+  .q-pa-lg {
+    padding: 16px !important;
+  }
+  
+  .q-gutter-md > * {
+    margin: 8px !important;
+  }
+}
+
+// Custom button styles
+.q-btn {
+  text-transform: none;
+  font-weight: 500;
+}
+
+// Custom card shadows
+.q-card {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.2s ease;
+}
+
+.q-card:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+}
+
